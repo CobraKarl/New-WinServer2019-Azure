@@ -2,8 +2,6 @@ $resourceGroupName = Read-Host -Prompt "Resource Group Name"
 $locationName = Read-Host -Prompt "Location"
 $vmName = Read-Host -Prompt "Vm Name"
 
-
-
 New-AzVm `
     -ResourceGroupName $resourceGroupName `
     -Name $vmName `
